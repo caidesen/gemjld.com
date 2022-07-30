@@ -1,0 +1,72 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+      - name: Hugo setup
+        # You may pin to the exact commit or the version.
+        # uses: peaceiris/actions-hugo@2e89aa66d0093e4cd14751b3028fc1a179452c2e
+        uses: peaceiris/actions-hugo@v2.4.13
+        #with:
+          # The Hugo version to download (if necessary) and use. Example: 0.58.2
+          #hugo-version: # optional, default is latest
+          # Download (if necessary) and use Hugo extended version. Example: true
+          #extended: # optional, default is false
+      - name: Build
+        run: hugo --minify
+      - name: GitHub Pages
+        # You may pin to the exact commit or the version.
+        # uses: crazy-max/ghaction-github-pages@eb08c35b9fab86751edfff4e55cd5cde35ff0e52
+        uses: crazy-max/ghaction-github-pages@v3.0.0
+        with:
+          # Git domain (default github.com)
+          domain: gemjld.com
+          # GitHub repository where assets will be deployed (default $GITHUB_REPOSITORY)
+          #repo: # optional
+          # Git branch where assets will be deployed
+          #target_branch: # optional, default is gh-pages
+          # Create incremental commit instead of doing push force
+          #keep_history: # optional, default is false
+          # Allow an empty commit to be created
+          #allow_empty_commit: # optional, default is true
+          # Build directory to deploy
+          build_dir: public
+          # Whether to treat build_dir as an absolute path
+          #absolute_build_dir: # optional, default is false
+          # If enabled, the content of symbolic links will be copied
+          #follow_symlinks: # optional, default is false
+          # The committer name and email address
+          #committer: # optional
+          # The author name and email address
+          #author: # optional
+          # Commit message
+          #commit_message: # optional
+          # Write the given domain name to the CNAME file
+          fqdn: gemjld.com
+          # Allow Jekyll to build your site
+          jekyll: false # optional, default is true
+          # If enabled, nothing will be pushed
+          #dry_run: # optional, default is false
+          # Enable verbose output
+          verbose: true
