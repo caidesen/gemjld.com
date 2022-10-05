@@ -1,7 +1,6 @@
 baseURL = "/"
 title = "Gem Leather"
-languageCode = "zh-CN"
-defaultContentLanguage = "cn"
+defaultContentLanguage = "en"
 paginate = "7"
 theme = "spectral"
 
@@ -14,38 +13,65 @@ weight = 10
 languageName = "Chinese"
 
 
-[params]
+[languages.cn.params]
 fancyTitle = "Gem Leather" # title for frontpage, may include image
 copyright = "天津金莱德新材料科技有限公司"
 description = '环保生态皮革<br /><br /><strong style="font-size: 40px">创新专家</strong>'
 startbuttonText = "立即咨询"
 startbuttonLink = "#"
-body_is_markdown = true
+body_is_markdown = 'true'
 #custom_css = "foo.css"
 
+[languages.en.params]
+fancyTitle = "Gem Leather" # title for frontpage, may include image
+copyright = "TIANIN GEM LFATHER NEW MATERIAL TECHNOLOGY CO.,LTD"
+description = 'ZERO SOLVENT<br /><br /><strong style="font-size: 40px">TPE ECOLOGICAL LEATHER</strong>'
+startbuttonText = "立即咨询"
+startbuttonLink = "#"
+body_is_markdown = 'true'
 
-[[params.menu.main]]
+
+[[languages.cn.params.menu.main]]
 url = '/'
 title = "首页"
+[[languages.en.params.menu.main]]
+url = '/'
+title = "home"
 
-[[params.menu.main]]
+[[languages.cn.params.menu.main]]
 url = '#one'
 title = "产品应用领域"
+[[languages.en.params.menu.main]]
+url = '#one'
+title = "product"
 
-[[params.menu.main]]
+[[languages.cn.params.menu.main]]
 url = '#three'
 title = "关于我们"
+[[languages.en.params.menu.main]]
+url = '#three'
+title = "about us"
 
-[[params.menu.main]]
+[[languages.cn.params.menu.main]]
 url = '#contact'
 title = "联系我们"
+[[languages.en.params.menu.main]]
+url = '#contact'
+title = "contact us"
 
 [taxonomies]
     tag = "tags"
     category = "categories"
     series = "series"
 
-[params.one]
+[languages.cn.params.one]
+enable = true
+img = '/images/gather.png'
+title = '产品应用领域'
+body = '''
+公司消化融合国内外先进技术，结合生产实践，特殊设计、研发、定制的先进高速自动化的涂复生产线，可高速挤出并直接复合成型，取代传统线下二次、三次复合的形式,过程中无废水、废气产生，全程绿色环保生产。
+'''
+[languages.en.params.one]
 enable = true
 img = '/images/gather.png'
 title = '产品应用领域'
@@ -56,77 +82,72 @@ body = '''
 [params.two]
 enable = true
 
-[[params.two.section]]
+[[languages.cn.params.two.section]]
+img = "/images/product1.png"
+title = '家具面料'
+body = '亲肤性优异、不使用溶剂、无甲醛、超低 VOC 释放、抗水解、抗老化、易清洁可应用于室外，对环境友好且十分安全。'
+[[languages.en.params.two.section]]
 img = "/images/product1.png"
 title = '家具面料'
 body = '亲肤性优异、不使用溶剂、无甲醛、超低 VOC 释放、抗水解、抗老化、易清洁可应用于室外，对环境友好且十分安全。'
 
-[[params.two.section]]
+[[languages.cn.params.two.section]]
+img = "/images/product2.png"
+title = '汽车游艇'
+body = '坯革柔软更接近皮质面料，不使用增塑剂来达到柔软的性质，耐腐蚀、适用温域宽，同时因其独特的疏水性使其具备极高的抗水解能力，在极端恶劣的环境中，质感仍能保持柔软且富有弹性，品质长期稳定，是适用于以上场景的理想材料。'
+[[languages.en.params.two.section]]
 img = "/images/product2.png"
 title = '汽车游艇'
 body = '坯革柔软更接近皮质面料，不使用增塑剂来达到柔软的性质，耐腐蚀、适用温域宽，同时因其独特的疏水性使其具备极高的抗水解能力，在极端恶劣的环境中，质感仍能保持柔软且富有弹性，品质长期稳定，是适用于以上场景的理想材料。'
 
-[[params.two.section]]
+[[languages.cn.params.two.section]]
+img = "/images/product3.png"
+title = '建筑软包'
+body = '具有防撞、阻燃、环保、防水、易清洁的五大特性，无甲醛释放、无异味、极低的 VOC 挥发、无重金属危害，可同时解决多重问题，减少重复施工，品质长期稳定。'
+[[languages.en.params.two.section]]
 img = "/images/product3.png"
 title = '建筑软包'
 body = '具有防撞、阻燃、环保、防水、易清洁的五大特性，无甲醛释放、无异味、极低的 VOC 挥发、无重金属危害，可同时解决多重问题，减少重复施工，品质长期稳定。'
 
-[[params.two.section]]
+[[languages.cn.params.two.section]]
+img = "/images/product4.png"
+title = '鞋革鞋材'
+body = '耐磨、耐低温、抗水解、无异味，多种纹路、多种色彩、多种选择，产品粒面细腻、严实、颜色均匀。'
+[[languages.en.params.two.section]]
 img = "/images/product4.png"
 title = '鞋革鞋材'
 body = '耐磨、耐低温、抗水解、无异味，多种纹路、多种色彩、多种选择，产品粒面细腻、严实、颜色均匀。'
 
-[[params.two.section]]
+[[languages.cn.params.two.section]]
+img = "/images/product5.png"
+title = '服饰服装'
+body = '具有极高的抗水解性和耐低温性，除应用于普通服装面料外，还可用于户外装备、滑雪装备等对防水、抗寒、耐磨性能要求较高的产品。'
+[[languages.en.params.two.section]]
 img = "/images/product5.png"
 title = '服饰服装'
 body = '具有极高的抗水解性和耐低温性，除应用于普通服装面料外，还可用于户外装备、滑雪装备等对防水、抗寒、耐磨性能要求较高的产品。'
 
-[[params.two.section]]
+[[languages.cn.params.two.section]]
+img = "/images/product6.png"
+title = '箱包皮具'
+body = '复合A级皮革标准，环保无昇味、可塑性强、耐水解、仿真度高、耐磨不易破损、色泽明艳、质地纯正，可媲美大部分动物皮革，使奢侈品大众化。'
+[[languages.en.params.two.section]]
 img = "/images/product6.png"
 title = '箱包皮具'
 body = '复合A级皮革标准，环保无昇味、可塑性强、耐水解、仿真度高、耐磨不易破损、色泽明艳、质地纯正，可媲美大部分动物皮革，使奢侈品大众化。'
 
-[params.three]
+[languages.cn.params.three]
 enable = true
 title = '关于我们'
 body = '''
 天津金莱德新材料科技有限公司，是一家经十余年的技术积累沉淀，专注于皮革环保新材料的研究、开发、应用及生产销售的高科技企业，主要的生产技术自主研发，生产工艺属于国内首创。公司及研发基地坐落于天津市西青区赛达工业园，并规划在福建投资建设20万平米的研发生产基地，致力于发展成为国内一流的环保生态皮革供应商。
 '''
-
-#[[params.three.feature]]
-#icon = "fa-paper-plane-o"
-#title = "Arcu accumsan"
-#body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-#
-#[[params.three.feature]]
-#icon = "fa-laptop"
-#title = "Ac Augue Eget"
-#body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-#
-#[[params.three.feature]]
-#icon = "fa-code"
-#title = "Foo bar"
-#body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-#
-#[[params.three.feature]]
-#icon = "fa-headphones"
-#title = "Baz kram"
-#body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-#
-#[[params.three.feature]]
-#icon = "fa-heart-o"
-#title = "Some latin text"
-#body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-#
-#[[params.three.feature]]
-#icon = "fa-flag-o"
-#title = "Nothing important"
-#body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[params.cta]
-enable = false
-title = "Arcue ut vel commodo"
-body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+[languages.en.params.three]
+enable = true
+title = '关于我们'
+body = '''
+天津金莱德新材料科技有限公司，是一家经十余年的技术积累沉淀，专注于皮革环保新材料的研究、开发、应用及生产销售的高科技企业，主要的生产技术自主研发，生产工艺属于国内首创。公司及研发基地坐落于天津市西青区赛达工业园，并规划在福建投资建设20万平米的研发生产基地，致力于发展成为国内一流的环保生态皮革供应商。
+'''
 
 [[params.cta.link]]
 href = "#"
@@ -138,7 +159,15 @@ href = "#"
 text = "Learn More"
 special = false
 
-[params.contact]
+[languages.cn.params.contact]
+enable = true
+title = "联系我们"
+body = "请给我们留言"
+phone1 = " 136 9300 3803"
+phone2 = " 134 8882 8598"
+address = " 天津市西青区王稳庄镇盛达一支路40号-11号"
+plain = false
+[languages.en.params.contact]
 enable = true
 title = "联系我们"
 body = "请给我们留言"
