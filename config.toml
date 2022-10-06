@@ -18,7 +18,7 @@ fancyTitle = "Gem Leather" # title for frontpage, may include image
 copyright = "天津金莱德新材料科技有限公司"
 description = '环保生态皮革<br /><br /><strong style="font-size: 40px">创新专家</strong>'
 startbuttonText = "立即咨询"
-startbuttonLink = "#"
+startbuttonLink = "#contact"
 body_is_markdown = 'true'
 #custom_css = "foo.css"
 
@@ -26,8 +26,8 @@ body_is_markdown = 'true'
 fancyTitle = "Gem Leather" # title for frontpage, may include image
 copyright = "TIANIN GEM LFATHER NEW MATERIAL TECHNOLOGY CO.,LTD"
 description = 'ZERO SOLVENT<br><br><strong style="font-size: 40px">TPE ECOLOGICAL LEATHER</strong>'
-startbuttonText = "立即咨询"
-startbuttonLink = "#"
+startbuttonText = "consult"
+startbuttonLink = "#contact"
 body_is_markdown = 'true'
 
 
