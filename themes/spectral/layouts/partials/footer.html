@@ -13,17 +13,23 @@
               {{ with .Site.Params.social.dribble }}
               <li><a href="https://dribble.com/{{ . }}" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
               {{ end }}
-              {{ with .Site.Params.contact.email }}
-              <li><a href="mailto:{{ . }}" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-              {{ end }}
               {{ with .Site.Params.contact.address }}
-              <li><a href="mailto:{{ . }}" class="icon fa-map-marker"><span class="label">Address</span><span>{{ . }}</span></a></li>
+              <li><a class="icon fa-map-marker"><span class="label">Address</span><span>{{ . }}</span></a></li>
               {{ end }}
+              <br>
               {{ with .Site.Params.contact.phone1 }}
               <li><a href="tel:{{ . }}" class="icon fa-phone"><span class="label">Phone</span><span>{{ . }}</span></a></li>
               {{ end }}
               {{ with .Site.Params.contact.phone2 }}
               <li><a href="tel:{{ . }}" class="icon fa-phone"><span class="label">Phone</span><span>{{ . }}</span></a></li>
+              {{ end }}
+              <br>
+              {{ with .Site.Params.contact.email1 }}
+              <li><a href="mailto:{{ . }}" class="icon fa-envelope-o"><span class="label">Email</span><span>{{ . }}</span></a></li>
+              {{ end }}
+              <br>
+              {{ with .Site.Params.contact.email2 }}
+              <li><a href="mailto:{{ . }}" class="icon fa-envelope-o"><span class="label">Email</span><span>{{ . }}</span></a></li>
               {{ end }}
 
 						</ul>

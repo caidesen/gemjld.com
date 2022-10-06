@@ -10,7 +10,7 @@ languageName = "English"
 
 [languages.cn]
 weight = 10
-languageName = "Chinese"
+languageName = "中文"
 
 
 [languages.cn.params]
@@ -25,7 +25,7 @@ body_is_markdown = 'true'
 [languages.en.params]
 fancyTitle = "Gem Leather" # title for frontpage, may include image
 copyright = "TIANIN GEM LFATHER NEW MATERIAL TECHNOLOGY CO.,LTD"
-description = 'ZERO SOLVENT<br /><br /><strong style="font-size: 40px">TPE ECOLOGICAL LEATHER</strong>'
+description = 'ZERO SOLVENT<br><br><strong style="font-size: 40px">TPE ECOLOGICAL LEATHER</strong>'
 startbuttonText = "立即咨询"
 startbuttonLink = "#"
 body_is_markdown = 'true'
@@ -74,12 +74,19 @@ body = '''
 [languages.en.params.one]
 enable = true
 img = '/images/gather.png'
-title = '产品应用领域'
+title = 'APPLICATION FIELD'
 body = '''
-公司消化融合国内外先进技术，结合生产实践，特殊设计、研发、定制的先进高速自动化的涂复生产线，可高速挤出并直接复合成型，取代传统线下二次、三次复合的形式,过程中无废水、废气产生，全程绿色环保生产。
+The company integrates domestic and foreign advanced technology, combined with
+production practice, special design, research and development, and customized advanced
+high- speed automatic coating production line. This allows for high-speed extrusion and
+direct composite molding, instead of the traditional offline two, three times composite
+form. There is no waste water and waste gas in the production process, leading to the whole
+process of green production.
 '''
 
-[params.two]
+[languages.cn.params.two]
+enable = true
+[languages.en.params.two]
 enable = true
 
 [[languages.cn.params.two.section]]
@@ -88,8 +95,8 @@ title = '家具面料'
 body = '亲肤性优异、不使用溶剂、无甲醛、超低 VOC 释放、抗水解、抗老化、易清洁可应用于室外，对环境友好且十分安全。'
 [[languages.en.params.two.section]]
 img = "/images/product1.png"
-title = '家具面料'
-body = '亲肤性优异、不使用溶剂、无甲醛、超低 VOC 释放、抗水解、抗老化、易清洁可应用于室外，对环境友好且十分安全。'
+title = 'Sofa fabric'
+body = 'excellent skin-friendliness comparable to genuine leather, zero solvent, zero formaldehyde, zero VOC environmental protection advantages plus anti-hydrolysis, anti-friction, easy-to-clean properties, environmentally friendly and very safe, soft and elastic texture is ideal for home fabrics material.'
 
 [[languages.cn.params.two.section]]
 img = "/images/product2.png"
@@ -97,8 +104,15 @@ title = '汽车游艇'
 body = '坯革柔软更接近皮质面料，不使用增塑剂来达到柔软的性质，耐腐蚀、适用温域宽，同时因其独特的疏水性使其具备极高的抗水解能力，在极端恶劣的环境中，质感仍能保持柔软且富有弹性，品质长期稳定，是适用于以上场景的理想材料。'
 [[languages.en.params.two.section]]
 img = "/images/product2.png"
-title = '汽车游艇'
-body = '坯革柔软更接近皮质面料，不使用增塑剂来达到柔软的性质，耐腐蚀、适用温域宽，同时因其独特的疏水性使其具备极高的抗水解能力，在极端恶劣的环境中，质感仍能保持柔软且富有弹性，品质长期稳定，是适用于以上场景的理想材料。'
+title = 'Yacht decoration'
+body = '''
+The material itself can resist hydrolysis for ten
+years. At the same time, it has excellent acid
+and alkali resistance, corrosion resistance, UV
+resistance and friction resistance, and can be
+widelv used in outdoor and harsh climate
+environments.
+'''
 
 [[languages.cn.params.two.section]]
 img = "/images/product3.png"
@@ -106,26 +120,31 @@ title = '建筑软包'
 body = '具有防撞、阻燃、环保、防水、易清洁的五大特性，无甲醛释放、无异味、极低的 VOC 挥发、无重金属危害，可同时解决多重问题，减少重复施工，品质长期稳定。'
 [[languages.en.params.two.section]]
 img = "/images/product3.png"
-title = '建筑软包'
-body = '具有防撞、阻燃、环保、防水、易清洁的五大特性，无甲醛释放、无异味、极低的 VOC 挥发、无重金属危害，可同时解决多重问题，减少重复施工，品质长期稳定。'
-
-[[languages.cn.params.two.section]]
-img = "/images/product4.png"
-title = '鞋革鞋材'
-body = '耐磨、耐低温、抗水解、无异味，多种纹路、多种色彩、多种选择，产品粒面细腻、严实、颜色均匀。'
-[[languages.en.params.two.section]]
-img = "/images/product4.png"
-title = '鞋革鞋材'
-body = '耐磨、耐低温、抗水解、无异味，多种纹路、多种色彩、多种选择，产品粒面细腻、严实、颜色均匀。'
+title = 'Architecture'
+body = '''
+With anti-collision, flame retardant,
+environmental protection, waterproof, easy to
+clean five characteristics, no formaldehyde
+release, no smell, very low VOC volatilization,
+no heavy metal harm, can solve multiple
+problems, reduce repeated construction,
+long-term quality stability.
+'''
 
 [[languages.cn.params.two.section]]
 img = "/images/product5.png"
-title = '服饰服装'
-body = '具有极高的抗水解性和耐低温性，除应用于普通服装面料外，还可用于户外装备、滑雪装备等对防水、抗寒、耐磨性能要求较高的产品。'
+title = '鞋革鞋材'
+body = '耐磨、耐低温、抗水解、无异味，多种纹路、多种色彩、多种选择，产品粒面细腻、严实、颜色均匀。'
 [[languages.en.params.two.section]]
 img = "/images/product5.png"
-title = '服饰服装'
-body = '具有极高的抗水解性和耐低温性，除应用于普通服装面料外，还可用于户外装备、滑雪装备等对防水、抗寒、耐磨性能要求较高的产品。'
+title = 'Shoes material'
+body = '''
+Abrasion resistance, low temperature
+resistance, hydrolysis resistance, no peculiar
+smell, a variety of lines, a variety of colors, a
+variety of choices, product grain surface fine,
+solid, uniform color.
+'''
 
 [[languages.cn.params.two.section]]
 img = "/images/product6.png"
@@ -133,8 +152,15 @@ title = '箱包皮具'
 body = '复合A级皮革标准，环保无昇味、可塑性强、耐水解、仿真度高、耐磨不易破损、色泽明艳、质地纯正，可媲美大部分动物皮革，使奢侈品大众化。'
 [[languages.en.params.two.section]]
 img = "/images/product6.png"
-title = '箱包皮具'
-body = '复合A级皮革标准，环保无昇味、可塑性强、耐水解、仿真度高、耐磨不易破损、色泽明艳、质地纯正，可媲美大部分动物皮革，使奢侈品大众化。'
+title = 'Bags and suitcases'
+body = '''
+Compound A class leather standard,
+environmental protection, no smell, plasticity,
+hydrolysis resistance, high degree of
+imitation, abrasion resistance, bright color,
+pure texture, comparable to most animal
+leather, make luxury goods popular.
+'''
 
 [languages.cn.params.three]
 enable = true
@@ -144,11 +170,13 @@ body = '''
 '''
 [languages.en.params.three]
 enable = true
-title = '关于我们'
+title = 'about us'
+body_is_markdown = true
 body = '''
-天津金莱德新材料科技有限公司，是一家经十余年的技术积累沉淀，专注于皮革环保新材料的研究、开发、应用及生产销售的高科技企业，主要的生产技术自主研发，生产工艺属于国内首创。公司及研发基地坐落于天津市西青区赛达工业园，并规划在福建投资建设20万平米的研发生产基地，致力于发展成为国内一流的环保生态皮革供应商。
-'''
+Tianjin GEM Leather New Material Technology Co., Ltd. is a high-tech enterprise focusing on the research, development, application, production and sales of new leather environmental protection materials after more than ten years of technological accumulation. The main production technology is an independent research and development. This production process is the first one in China. The company and its R&D base are located in Saida Industrial Park, Xiging District, Tianjin. The company plans to invest and build a R&D and production base of 200,000 square meters in Fujian, and is committed to develop into a first-class environmental protection ecological leather supplier in China.
 
+Company uses creative technology research and development of elastic leather environmental protection technology to overcome the composite process of material restrictions, which through the composite process produce 100% environ- mental protection products, leading to green production. ***100% recyclable, zero solvent, hydrolysis resistance for more than ten years, zero formaldehyde, zero VOC, minus 50 degrees cold resistance, high temperature resistance, no heavy metal residue, flame retardant, wear resistance, tear resistance.*** The elastomer environmentally friendly leather products developed can be used in construction, automobile, sofa, clothing, shoe materials, bags and other fields.
+'''
 [[params.cta.link]]
 href = "#"
 text = "Activate"
@@ -163,17 +191,21 @@ special = false
 enable = true
 title = "联系我们"
 body = "请给我们留言"
-phone1 = " 136 9300 3803"
-phone2 = " 134 8882 8598"
-address = " 天津市西青区王稳庄镇盛达一支路40号-11号"
+phone1 = "136 9300 3803"
+phone2 = "134 8882 8598"
+address = "天津市西青区王稳庄镇盛达一支路40号-11号"
+email1 = "wuzhenzhao1995@gemjld.com"
+email2 = "wuyucong@gemjld.com"
 plain = false
 [languages.en.params.contact]
 enable = true
-title = "联系我们"
-body = "请给我们留言"
-phone1 = " 136 9300 3803"
-phone2 = " 134 8882 8598"
-address = " 天津市西青区王稳庄镇盛达一支路40号-11号"
+title = "contact us"
+body = "please contact us"
+phone1 = "136 9300 3803"
+phone2 = "134 8882 8598"
+address = "Plant No. 40-11, Shengda 1st branch road, wangwenzhuang Town, Xiqing District, Tianjin"
+email1 = "wuzhenzhao1995@gemjld.com"
+email2 = "wuyucong@gemjld.com"
 plain = false
 
 [params.social]

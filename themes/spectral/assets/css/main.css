@@ -2082,6 +2082,11 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
+
+		}
+
+		.icon > .label + span {
+			margin-left: 0.5em;
 		}
 
 		.icon.major {
@@ -3760,7 +3765,7 @@ input, select, textarea {
 				}
 
 				#banner br {
-					display: none;
+					/*display: none;*/
 				}
 
 				#banner .more {
