@@ -25,7 +25,7 @@ body_is_markdown = 'true'
 [languages.en.params]
 fancyTitle = "Gem Leather" # title for frontpage, may include image
 copyright = "TIANIN GEM LFATHER NEW MATERIAL TECHNOLOGY CO.,LTD"
-description = 'ZERO SOLVENT<br><br><strong style="font-size: 40px">TPE ECOLOGICAL LEATHER</strong>'
+description = 'ZERO SOLVENT<br><br><strong style="font-size: 40px">TPEE SYNTHETIC LEATHER</strong>'
 startbuttonText = "consult"
 startbuttonLink = "#contact"
 body_is_markdown = 'true'
@@ -92,74 +92,74 @@ enable = true
 [[languages.cn.params.two.section]]
 img = "/images/product1.png"
 title = '家具面料'
-body = '亲肤性优异、不使用溶剂、无甲醛、超低 VOC 释放、抗水解、抗老化、易清洁可应用于室外，对环境友好且十分安全。'
+body = '亲肤性优异、不使用溶剂、无甲醛、超低VOC释放、抗 水解、抗老化、易清洁可应用于室外，对环境友好且十分安全。'
 [[languages.en.params.two.section]]
 img = "/images/product1.png"
-title = 'Sofa fabric'
-body = 'excellent skin-friendliness comparable to genuine leather, zero solvent, zero formaldehyde, zero VOC environmental protection advantages plus anti-hydrolysis, anti-friction, easy-to-clean properties, environmentally friendly and very safe, soft and elastic texture is ideal for home fabrics material.'
+title = 'Furniture fabric'
+body = 'With excellent skin-friendly properties, hydrolysis resistance, and aging resistance, our product is free of solvent and formaldehyde with ultra-low VOC release, and can be easily cleaned and used outdoors for its environmental friendliness and safety features.'
 
 [[languages.cn.params.two.section]]
-img = "/images/product2.png"
-title = '汽车游艇'
-body = '坯革柔软更接近皮质面料，不使用增塑剂来达到柔软的性质，耐腐蚀、适用温域宽，同时因其独特的疏水性使其具备极高的抗水解能力，在极端恶劣的环境中，质感仍能保持柔软且富有弹性，品质长期稳定，是适用于以上场景的理想材料。'
+img = "/images/automotive-trim.jpg"
+title = '汽车内饰'
+body = '材料通体着色，无色牢度困扰，结合优异的阻燃性能、抗 水解性能，同时又具备零溶剂、零甲醛、零VOC、无异味的环保优势，是汽车内饰材料的不二之选。'
 [[languages.en.params.two.section]]
-img = "/images/product2.png"
+img = "/images/automotive-trim.jpg"
+title = 'Automotive trim'
+body = 'The material is through-colored, without any defects in color fastness. With excellent flame retardancy and hydrolysis resistance, it is environment-friendly, free of any solvent, formaldehyde, VOC, and odor and is the best choice for automotive interior materials.'
+
+[[languages.cn.params.two.section]]
+img = "/images/yacht-decoration.jpg"
+title = '游艇装饰'
+body = '材料本身抗水解能力即可达十年之久，同时具有优异的 抗酸碱能力、抗腐蚀能力、抗UV能力、抗摩擦能力，可广泛应用于室外及恶劣气候环境中。'
+[[languages.en.params.two.section]]
+img = "/images/yacht-decoration.jpg"
 title = 'Yacht decoration'
 body = '''
-The material itself can resist hydrolysis for ten
-years. At the same time, it has excellent acid
-and alkali resistance, corrosion resistance, UV
-resistance and friction resistance, and can be
-widelv used in outdoor and harsh climate
-environments.
+The hydrolysis resistance of the material can last up to ten years. With excellent resistance to acid and alkali, corrosion, UV and friction, it can be extensively applied in outdoors and harsh weather environments.
 '''
 
 [[languages.cn.params.two.section]]
-img = "/images/product3.png"
-title = '建筑软包'
-body = '具有防撞、阻燃、环保、防水、易清洁的五大特性，无甲醛释放、无异味、极低的 VOC 挥发、无重金属危害，可同时解决多重问题，减少重复施工，品质长期稳定。'
-[[languages.en.params.two.section]]
-img = "/images/product3.png"
-title = 'Architecture'
-body = '''
-With anti-collision, flame retardant,
-environmental protection, waterproof, easy to
-clean five characteristics, no formaldehyde
-release, no smell, very low VOC volatilization,
-no heavy metal harm, can solve multiple
-problems, reduce repeated construction,
-long-term quality stability.
-'''
-
-[[languages.cn.params.two.section]]
-img = "/images/product5.png"
+img = "/images/shoe-leather.jpg"
 title = '鞋革鞋材'
-body = '耐磨、耐低温、抗水解、无异味，多种纹路、多种色彩、多种选择，产品粒面细腻、严实、颜色均匀。'
+body = '耐磨、耐低温、抗水解、无异味，多种纹路、多种色彩、多种选择，产品面细腻、严实、颜色均匀。'
 [[languages.en.params.two.section]]
-img = "/images/product5.png"
-title = 'Shoes material'
+img = "/images/shoe-leather.jpg"
+title = 'Shoe leather and material'
 body = '''
-Abrasion resistance, low temperature
-resistance, hydrolysis resistance, no peculiar
-smell, a variety of lines, a variety of colors, a
-variety of choices, product grain surface fine,
-solid, uniform color.
+It is wear-resistant, low-temperature resistant, hydrolysis resistant, and odor-free with multiple pattern and color choices available. The product grain is fine, compact, and uniform in color.
 '''
 
 [[languages.cn.params.two.section]]
-img = "/images/product6.png"
-title = '箱包皮具'
-body = '复合A级皮革标准，环保无昇味、可塑性强、耐水解、仿真度高、耐磨不易破损、色泽明艳、质地纯正，可媲美大部分动物皮革，使奢侈品大众化。'
+img = "/images/upholstery.jpg"
+title = '建筑软包'
+body = '具有防撞、阻燃、环保、防水、易清洁的五大特性，无甲醛 释放、无异味、极低的VOC挥发、无重金属危害，可同时解決多重问题，减少重复施工，品质长期稳定。'
 [[languages.en.params.two.section]]
-img = "/images/product6.png"
-title = 'Bags and suitcases'
+img = "/images/upholstery.jpg"
+title = 'Upholstery'
 body = '''
-Compound A class leather standard,
-environmental protection, no smell, plasticity,
-hydrolysis resistance, high degree of
-imitation, abrasion resistance, bright color,
-pure texture, comparable to most animal
-leather, make luxury goods popular.
+Characterized by anti-collision, flame retardant, environment-friendly, waterproof, and easy to clean, our product is also free of formaldehyde, odor, and heavy metal hazards with extremely low VOC volatilization. It can address various problems at the same time, avoiding repeated construction and guaranteeing long-term quality.
+'''
+
+[[languages.cn.params.two.section]]
+img = "/images/bag.jpg"
+title = '箱包皮具'
+body = '复合A级皮革标准，环保无异味、可塑性强、耐水解、仿真度高、耐磨不易破损、色泽明艳、质地纯正，可媲美大部分动物皮革，使奢修品大众化。'
+[[languages.en.params.two.section]]
+img = "/images/bag.jpg"
+title = 'Bags & Accessories'
+body = '''
+Our product meets the A-grade leather standard, it is environment-friendly, odor-free, flexible, hydrolysis-resistant, highly simulated, wear-resistant, bright and lustrous, and pure in texture, and is comparable to most genuine animal leathers. We make luxury leather products accessible to every household.
+'''
+
+[[languages.cn.params.two.section]]
+img = "/images/massage-chair.jpg"
+title = '按摩椅'
+body = '弹性佳、韧性强、亲肤性优异、耐酒精擦拭、耐汗渍腐蚀、耐摩擦开列、零甲醛、零异味'
+[[languages.en.params.two.section]]
+img = "/images/massage-chair.jpg"
+title = 'Massage chair'
+body = '''
+With favorable elasticity, strong toughness, and excellent skin-friendly property, our product has strong resistance to alcohol, sweat corrosion, friction resistance, and cracking, and is free of formaldehyde and odor.
 '''
 
 [languages.cn.params.three]
@@ -188,7 +188,7 @@ text = "Learn More"
 special = false
 
 [languages.cn.params.contact]
-enable = true
+enable = false
 title = "联系我们"
 body = "请给我们留言"
 phone1 = "136 9300 3803"
@@ -198,7 +198,7 @@ email1 = "wuzhenzhao1995@gemjld.com"
 email2 = "wuyucong@gemjld.com"
 plain = false
 [languages.en.params.contact]
-enable = true
+enable = false
 title = "contact us"
 body = "please contact us"
 phone1 = "136 9300 3803"
